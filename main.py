@@ -1,12 +1,10 @@
-
-
 import sys
 import tkinter as tk
 
-from operators import add       # noqa: F401 – imported for completeness; used via equals
-from operators import subtract  # noqa: F401
-from operators import multiply  # noqa: F401
-from operators import divide    # noqa: F401
+from operators import add      
+from operators import subtract  
+from operators import multiply  
+from operators import divide    
 from operators import root as root_mod
 from operators import square as square_mod
 from operators import equals as equals_mod
